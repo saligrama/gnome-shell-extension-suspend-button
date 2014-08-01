@@ -142,7 +142,7 @@ const Extension = new Lang.Class({
     },
     
     _addDefaultButton: function() {
-        this.systemMenu._actionsItem.actor.add(this.systemMenu._altSwitcher.actor, { expand: true, x_fill: false });
+        this.systemMenu._actionsItem.actor.add(this._oldaltSwitcher, { expand: true, x_fill: false });
     },
     
     _addSingleButtons: function() {
@@ -151,7 +151,8 @@ const Extension = new Lang.Class({
     },
     
     _removealtSwitcher: function() {
-        this.systemMenu._actionsItem.actor.remove_child(this.systemMenu._altSwitcher.actor);
+		this._oldaltSwitcher = this.systemMenu._actionsItem.actor.get_last_child()
+        this.systemMenu._actionsItem.actor.remove_child(this._oldaltSwitcher);
     },
     
     _createaltStatusSwitcher: function() {
