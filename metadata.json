@@ -7,9 +7,10 @@
     "3.12",
     "3.14",
     "3.16",
-    "3.18"
+    "3.18",
+    "3.20"
   ], 
-  "url": "https://github.com/laserb/gnome-shell-extension-suspend-button", 
-  "uuid": "suspend-button@laserb", 
+  "url": "https://github.com/saligrama/gnome-shell-extension-suspend-button", 
+  "uuid": "suspend-button@saligrama.noip.me", 
   "version": 6
 }
