@@ -5,7 +5,7 @@ Suspend Button
 
 To use the extension, run:
 
-    git clone http://github.com/saligrama/HideOverviewWhenClickOverview
-    zip -r HideOverviewWhenClickOverview.zip HideOverviewWhenClickOverview
+    git clone http://github.com/saligrama/gnome-shell-extension-suspend-button
+    zip -r gnome-shell-extension-suspend-button.zip gnome-shell-extension-suspend-button
 
 Then, go to GNOME tweak tool and install the extension and enable it.
