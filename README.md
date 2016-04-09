@@ -1,6 +1,11 @@
-gnome-shell-extension-suspend-button
+Suspend Button
 ====================================
 
-GNOME Shell Extension Suspend-Button for GNOME 3.10 / 3.12 / 3.14 / 3.16 / 3.18 / 3.20
+*for GNOME 3.10 / 3.12 / 3.14 / 3.16 / 3.18 / 3.20*
 
-I have no idea if this actually works with 3.20, I gave it a metadata.json bump but I can't test until GNOME 3.20 arrives in [extra]
+To use the extension, run:
+
+    git clone http://github.com/saligrama/HideOverviewWhenClickOverview
+    zip -r HideOverviewWhenClickOverview.zip HideOverviewWhenClickOverview
+
+Then, go to GNOME tweak tool and install the extension and enable it.
